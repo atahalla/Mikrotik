@@ -1,4 +1,4 @@
-# Mikrotik Script NATDSS ANTERAJA
+# Mikrotik Script NATDSS 
 # Purpose : make static lease, create nats for dahua nvr
 # by dr0m4n 
 if ([/ip dhcp-server lease find where mac-address~"38:AF:29"]) do={ 
